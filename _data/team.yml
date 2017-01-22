@@ -1,0 +1,11 @@
+- name: John Doe
+  twitter: johndoe
+  avatar: avatar-1
+
+- name: Alice Johnson
+  twitter: alicejohnson
+  avatar: avatar-2
+
+- name: John Parker
+  twitter: johnparker
+  avatar: avatar-1

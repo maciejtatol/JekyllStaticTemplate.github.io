@@ -1,0 +1,16 @@
+---
+layout: page
+permalink: /our-team/
+title: Team
+order: 4
+---
+<h1>Team</h1>
+
+{% for member in site.data.team %}
+<div class="member">
+    <img src="{{ "/uploads/" | prepend: site.baseurl }}{{ member.avatar }}.jpg" alt="{{ member.name | escape }}">
+    <h2>{{ member.name }}</h2>
+    <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a>
+</div>
+<br>
+{% endfor %}
